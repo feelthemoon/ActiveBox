@@ -264,13 +264,13 @@ p {
 
   transition: opacity 0.6s linear;
 }
-.works__content__title {
+.works__title {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
 }
-.works__content__text {
+.works__text {
   font-size: 14px;
   font-weight: 400;
   color: #fff;
@@ -293,26 +293,26 @@ p {
   padding: 0 15px;
   margin-bottom: 30px;
 }
-.team__item__photo {
+.team__photo {
   display: block;
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
 }
-.team__item__name {
+.team__name {
   color: #2d3033;
   font-size: 22px;
   font-weight: 400;
   margin-bottom: 8px;
 }
-.team__item__prof {
+.team__prof {
   color: #e84545;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
-.team__item__text {
+.team__text {
   font-size: 14px;
   color: #6c7279;
   line-height: 1.5;
@@ -361,7 +361,7 @@ p {
   flex-wrap: wrap;
   overflow: hidden;
 }
-.feedbacks__item__photo {
+.feedbacks__photo {
   width: 50%;
   height: 500px;
   position: relative;
@@ -373,14 +373,14 @@ p {
   z-index: 1;
   transform: translateY(-50%);
 }
-.feedbacks__item__content {
+.feedbacks__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 50%;
   padding-left: 80px;
 }
-.feedbacks__item__content__text {
+.feedbacks__text {
   font-family: Cardo, sans-serif;
   font-style: italic;
   color: #fff;
@@ -388,7 +388,7 @@ p {
   line-height: 1.2;
   margin-bottom: 25px;
 }
-.feedbacks__item__content__author {
+.feedbacks__author {
   font-size: 13px;
   font-weight: 700;
   line-height: 21px;
@@ -460,20 +460,20 @@ p {
   text-align: center;
   padding: 0 15px;
 }
-.footer__block__title {
+.footer__title {
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 10px;
   color: #fff;
   text-transform: uppercase;
 }
-.footer__block__address {
+.footer__address {
   font-size: 14px;
   line-height: 1.5;
   font-style: normal;
   color: rgba(255, 255, 255, 0.5);
 }
-.footer__block__text {
+.footer__text {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
@@ -529,19 +529,19 @@ p {
     width: 50%;
     text-align: center;
   }
-  .team__item__photo {
+  .team__photo {
     margin-left: auto;
     margin-right: auto;
   }
   .social {
     justify-content: center;
   }
-  .feedbacks__item__photo {
+  .feedbacks__photo {
     width: 100%;
     margin: 15px 0;
     overflow: hidden;
   }
-  .feedbacks__item__content {
+  .feedbacks__content {
     width: 100%;
     padding-left: 0;
     padding-bottom: 15px;
@@ -576,7 +576,7 @@ p {
   .team__item {
     width: 100%;
   }
-  .feedbacks__item__content__text {
+  .feedbacks__text {
     font-size: 25px;
   }
   .btn--long {
